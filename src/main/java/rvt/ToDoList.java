@@ -33,8 +33,8 @@ public class ToDoList {
     }
 
     public void print(){
-        for (String job: tasks){
-            System.out.println(this.tasks.indexOf(job)+ 1 + ":" + job);    
+        for (int i = 0; i < this.tasks.size(); i++) {
+            System.out.println((i + 1) + ": " + this.tasks.get(i));
         }
     }
 
@@ -49,9 +49,9 @@ public class ToDoList {
 
     public String getTask(int id){
         if (id < 1 || id > tasks.size()) {
-            return null; 
+            return null;
         }
-        return tasks.get(id);
+        return tasks.get(id - 1);
     }
 
     private boolean updateFile() {
