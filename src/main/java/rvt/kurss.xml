@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kursi>
+    <kurssid>
+        <id>1</id>
+        <id2>2</id2>
+        <id3>3</id3>
+    </kurssid>
+    <nosaukums>
+        <name>DP2-4</name>
+        <name2>DP2-1</name2>
+        <name3>DP2-2</name3>
+    </nosaukums>
+<apraksts>
+    <name>Berry-Berry Belgian Waf</name>
+    <price>$8.95</price>
+    <description>
+    Belgian waffles covered with assorted fresh berries and whipped cream
+    </description>
+    <calories>900</calories>
+</food>
+<food>
+    <name>French Toast</name>
+    <price>$4.50</price>
+    <description>
+    Thick slices made from our homemade sourdough bread
+    </description>
+    <calories>600</calories>
+</food>
+<food>
+    <name>Homestyle Breakfast</name>
+    <price>$6.95</price>
+    <description>
+    Two eggs, bacon or sausage, toast, and our ever-popular hash browns
+    </description>
+    <calories>950</calories>
+</food>
+</breakfast_menu>
